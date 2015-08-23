@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.nk.tests.RegisterPageTest">
+        <methods>
+          <include name="verifyCreateYourJobAlert"/>
+          <include name="verifyEducationDetails"/>
+          <include name="verifyCompleteMyProfilePage"/>
+          <include name="setUp"/>
+          <include name="verifyYourCurrentEmploymentDetails"/>
+          <include name="verifyCompleteMyProfile"/>
+        </methods>
+      </class> <!-- com.nk.tests.RegisterPageTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="29" failures="1" name="TestSuite" time="103.021" errors="0" skipped="27">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin"/>
+    <property name="java.vm.version" value="25.20-b23"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Automation\Workspace\NKSeleniunAutomationTest"/>
+    <property name="java.runtime.version" value="1.8.0_20-b26"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\Automation\Workspace\NKSeleniunAutomationTest"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefirebooter1123407628980492201.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_20/bin/client;C:/Program Files/Java/jre1.8.0_20/bin;C:/Program Files/Java/jre1.8.0_20/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_20\bin;D:\apache-ant-1.9.4\bin;C:\apache-maven-3.3.3\bin;C:\Program Files\Skype\Phone\;D:\eclipse-java-luna-SR1-win32\eclipse;;."/>
+    <property name="surefire.test.class.path" value="D:\Automation\Workspace\NKSeleniunAutomationTest\target\test-classes;D:\Automation\Workspace\NKSeleniunAutomationTest\target\classes;C:\Users\Admin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\2.47.1\selenium-java-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.47.1\selenium-chrome-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.47.1\selenium-remote-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\2.47.1\selenium-api-2.47.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.47.1\selenium-edge-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.47.1\selenium-htmlunit-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.17\htmlunit-2.17.jar;C:\Users\Admin\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Admin\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.4.1\httpmime-4.4.1.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\Admin\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Admin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Admin\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\Admin\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\Admin\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.11.v20150529\websocket-client-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-util\9.2.11.v20150529\jetty-util-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-io\9.2.11.v20150529\jetty-io-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.11.v20150529\websocket-common-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.11.v20150529\websocket-api-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.47.1\selenium-firefox-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.47.1\selenium-ie-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.47.1\selenium-safari-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\2.47.1\selenium-support-2.47.1.jar;C:\Users\Admin\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\Admin\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.47.1\selenium-leg-rc-2.47.1.jar;C:\Users\Admin\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\Admin\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="D:\Automation\Workspace\NKSeleniunAutomationTest\target\test-classes;D:\Automation\Workspace\NKSeleniunAutomationTest\target\classes;C:\Users\Admin\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\2.47.1\selenium-java-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.47.1\selenium-chrome-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.47.1\selenium-remote-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\2.47.1\selenium-api-2.47.1.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.47.1\selenium-edge-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.47.1\selenium-htmlunit-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.17\htmlunit-2.17.jar;C:\Users\Admin\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\Admin\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.4.1\httpmime-4.4.1.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Users\Admin\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Admin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Admin\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.22\nekohtml-1.9.22.jar;C:\Users\Admin\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.16\cssparser-0.9.16.jar;C:\Users\Admin\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.11.v20150529\websocket-client-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-util\9.2.11.v20150529\jetty-util-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-io\9.2.11.v20150529\jetty-io-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.11.v20150529\websocket-common-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.11.v20150529\websocket-api-9.2.11.v20150529.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.4.1\httpclient-4.4.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.4.1\httpcore-4.4.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.47.1\selenium-firefox-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.47.1\selenium-ie-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.47.1\selenium-safari-driver-2.47.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\2.47.1\selenium-support-2.47.1.jar;C:\Users\Admin\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\Admin\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.47.1\selenium-leg-rc-2.47.1.jar;C:\Users\Admin\.m2\repository\org\testng\testng\6.1.1\testng-6.1.1.jar;C:\Users\Admin\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.12\jcommander-1.12.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Admin\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_20\jre"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefirebooter1123407628980492201.jar C:\Users\Admin\AppData\Local\Temp\surefire1127052725495261484tmp C:\Users\Admin\AppData\Local\Temp\surefire3127616739666912611tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="1.8.0_20"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_20\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_20\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_20\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="popUpClose" time="0.856"/>
+  <testcase classname="com.nk.tests.SearchPageTest" name="setup" time="78.471">
+    <failure message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;Admin-PC&apos;, ip: &apos;100.73.175.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_20&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.47.1&apos;, revision: &apos;unknown&apos;, time: &apos;2015-07-30 11:02:44&apos;
+System info: host: &apos;Admin-PC&apos;, ip: &apos;100.73.175.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;x86&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_20&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:589)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:306)
+	at com.nk.util.BaseTestObject.setup(BaseTestObject.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:525)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:202)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:173)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:180)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:483)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:350)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1021)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:393)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 48 more
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7056 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:151)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:161)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:89)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:134)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:170)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:393)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:568)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:345)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:74)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:134)
+	... 48 more
+</failure>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="popUpClose" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyRegistrationPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchSection" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyCreateLoginDetails" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchByLocationField" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyYourContactInformation" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchByExperienceField" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyYourCurrentEmploymentDetails" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchBySkill" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyCompleteMyProfilePage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchResultsPage" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyEducationDetails" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifyRefineResultsSection" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyCompleteMyProfile" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchListingViewResults" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="verifyCreateYourJobAlert" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.RegisterPageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchDetailedViewResults" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchResultsSection" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifyRefineByFreshness" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifySearchByLocationSection" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifyRefineByLocationPopUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifyRefineByIndustryType" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifyRefineByIndustryPopUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifyRefineByEducation" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="verifyRefineByEducationPopUp" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.nk.tests.SearchPageTest" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+</testsuite>

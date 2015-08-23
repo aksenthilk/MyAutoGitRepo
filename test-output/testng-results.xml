@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="26" passed="26">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object test example" duration-ms="441755" started-at="2015-08-22T15:51:16Z" finished-at="2015-08-22T15:58:38Z">
+    <groups>
+    </groups>
+    <test name="sample test" duration-ms="441755" started-at="2015-08-22T15:51:16Z" finished-at="2015-08-22T15:58:38Z">
+      <class name="com.nk.tests.SearchPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="setup" is-config="true" duration-ms="23039" started-at="2015-08-22T21:21:16Z" finished-at="2015-08-22T21:21:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.naukri.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="popUpClose()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="popUpClose" duration-ms="1130" started-at="2015-08-22T21:21:39Z" finished-at="2015-08-22T21:21:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClose -->
+        <test-method status="PASS" signature="verifySearchSection()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchSection" duration-ms="544" started-at="2015-08-22T21:21:40Z" finished-at="2015-08-22T21:21:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSection -->
+        <test-method status="PASS" signature="verifySearchByLocationField()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchByLocationField" duration-ms="20939" started-at="2015-08-22T21:21:41Z" finished-at="2015-08-22T21:22:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByLocationField -->
+        <test-method status="PASS" signature="verifySearchByExperienceField()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchByExperienceField" duration-ms="28732" started-at="2015-08-22T21:22:02Z" finished-at="2015-08-22T21:22:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByExperienceField -->
+        <test-method status="PASS" signature="verifySearchBySkill()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchBySkill" duration-ms="17106" started-at="2015-08-22T21:22:30Z" finished-at="2015-08-22T21:22:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchBySkill -->
+        <test-method status="PASS" signature="verifySearchResultsPage()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchResultsPage" duration-ms="3256" started-at="2015-08-22T21:22:47Z" finished-at="2015-08-22T21:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsPage -->
+        <test-method status="PASS" signature="verifyRefineResultsSection()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifyRefineResultsSection" duration-ms="597" started-at="2015-08-22T21:22:51Z" finished-at="2015-08-22T21:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineResultsSection -->
+        <test-method status="PASS" signature="verifySearchListingViewResults()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchListingViewResults" duration-ms="9139" started-at="2015-08-22T21:22:51Z" finished-at="2015-08-22T21:23:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchListingViewResults -->
+        <test-method status="PASS" signature="verifySearchDetailedViewResults()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchDetailedViewResults" duration-ms="10654" started-at="2015-08-22T21:23:00Z" finished-at="2015-08-22T21:23:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchDetailedViewResults -->
+        <test-method status="PASS" signature="verifySearchResultsSection()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchResultsSection" duration-ms="914" started-at="2015-08-22T21:23:11Z" finished-at="2015-08-22T21:23:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsSection -->
+        <test-method status="PASS" signature="verifyRefineByFreshness()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifyRefineByFreshness" duration-ms="14235" started-at="2015-08-22T21:23:12Z" finished-at="2015-08-22T21:23:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByFreshness -->
+        <test-method status="PASS" signature="verifySearchByLocationSection()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifySearchByLocationSection" duration-ms="13834" started-at="2015-08-22T21:23:26Z" finished-at="2015-08-22T21:23:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchByLocationSection -->
+        <test-method status="PASS" signature="verifyRefineByLocationPopUp()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifyRefineByLocationPopUp" duration-ms="27417" started-at="2015-08-22T21:23:40Z" finished-at="2015-08-22T21:24:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByLocationPopUp -->
+        <test-method status="PASS" signature="verifyRefineByIndustryType()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifyRefineByIndustryType" duration-ms="23699" started-at="2015-08-22T21:24:07Z" finished-at="2015-08-22T21:24:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByIndustryType -->
+        <test-method status="PASS" signature="verifyRefineByIndustryPopUp()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifyRefineByIndustryPopUp" duration-ms="39651" started-at="2015-08-22T21:24:31Z" finished-at="2015-08-22T21:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByIndustryPopUp -->
+        <test-method status="PASS" signature="verifyRefineByEducation()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifyRefineByEducation" duration-ms="25871" started-at="2015-08-22T21:25:11Z" finished-at="2015-08-22T21:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByEducation -->
+        <test-method status="PASS" signature="verifyRefineByEducationPopUp()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="verifyRefineByEducationPopUp" duration-ms="40381" started-at="2015-08-22T21:25:37Z" finished-at="2015-08-22T21:26:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRefineByEducationPopUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nk.tests.SearchPageTest@1c8e616]" name="tearDown" is-config="true" duration-ms="2352" started-at="2015-08-22T21:26:17Z" finished-at="2015-08-22T21:26:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.SearchPageTest -->
+      <class name="com.nk.tests.RegisterPageTest">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="setup" is-config="true" duration-ms="19454" started-at="2015-08-22T21:26:19Z" finished-at="2015-08-22T21:26:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://www.naukri.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="popUpClose()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="popUpClose" duration-ms="818" started-at="2015-08-22T21:26:39Z" finished-at="2015-08-22T21:26:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popUpClose -->
+        <test-method status="PASS" signature="verifyRegistrationPage()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyRegistrationPage" duration-ms="7764" started-at="2015-08-22T21:26:40Z" finished-at="2015-08-22T21:26:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegistrationPage -->
+        <test-method status="PASS" signature="verifyCreateLoginDetails()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyCreateLoginDetails" duration-ms="26896" started-at="2015-08-22T21:26:47Z" finished-at="2015-08-22T21:27:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateLoginDetails -->
+        <test-method status="PASS" signature="verifyYourContactInformation()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyYourContactInformation" duration-ms="9042" started-at="2015-08-22T21:27:14Z" finished-at="2015-08-22T21:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourContactInformation -->
+        <test-method status="PASS" signature="verifyYourCurrentEmploymentDetails()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyYourCurrentEmploymentDetails" duration-ms="26871" started-at="2015-08-22T21:27:23Z" finished-at="2015-08-22T21:27:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYourCurrentEmploymentDetails -->
+        <test-method status="PASS" signature="verifyCompleteMyProfilePage()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyCompleteMyProfilePage" duration-ms="6492" started-at="2015-08-22T21:27:50Z" finished-at="2015-08-22T21:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteMyProfilePage -->
+        <test-method status="PASS" signature="verifyEducationDetails()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyEducationDetails" duration-ms="16342" started-at="2015-08-22T21:27:57Z" finished-at="2015-08-22T21:28:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEducationDetails -->
+        <test-method status="PASS" signature="verifyCompleteMyProfile()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyCompleteMyProfile" duration-ms="6321" started-at="2015-08-22T21:28:13Z" finished-at="2015-08-22T21:28:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompleteMyProfile -->
+        <test-method status="PASS" signature="verifyCreateYourJobAlert()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="verifyCreateYourJobAlert" duration-ms="16727" started-at="2015-08-22T21:28:19Z" finished-at="2015-08-22T21:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateYourJobAlert -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nk.tests.RegisterPageTest@9a8472]" name="tearDown" is-config="true" duration-ms="1422" started-at="2015-08-22T21:28:36Z" finished-at="2015-08-22T21:28:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nk.tests.RegisterPageTest -->
+    </test> <!-- sample test -->
+  </suite> <!-- Page Object test example -->
+</testng-results>

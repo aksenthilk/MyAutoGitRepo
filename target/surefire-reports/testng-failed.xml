@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Page Object test example]">
+  <parameter name="url" value="http://www.naukri.com/"/>
+  <parameter name="browserType" value="FF"/>
+  <test name="sample test(failed)" preserve-order="false">
+    <parameter name="url" value="http://www.naukri.com/"/>
+    <parameter name="browserType" value="FF"/>
+    <classes>
+      <class name="com.nk.tests.RegisterPageTest">
+        <methods>
+          <include name="verifyYourContactInformation"/>
+          <include name="verifyCreateYourJobAlert"/>
+          <include name="verifyEducationDetails"/>
+          <include name="setup"/>
+          <include name="verifyCompleteMyProfilePage"/>
+          <include name="verifyCreateLoginDetails"/>
+          <include name="verifyYourCurrentEmploymentDetails"/>
+          <include name="verifyCompleteMyProfile"/>
+          <include name="verifyRegistrationPage"/>
+        </methods>
+      </class>
+      <class name="com.nk.tests.SearchPageTest">
+        <methods>
+          <include name="verifyRefineByFreshness"/>
+          <include name="verifySearchSection"/>
+          <include name="verifyRefineByEducation"/>
+          <include name="setup"/>
+          <include name="verifyRefineByLocationPopUp"/>
+          <include name="verifySearchBySkill"/>
+          <include name="verifySearchByExperienceField"/>
+          <include name="verifySearchDetailedViewResults"/>
+          <include name="verifySearchListingViewResults"/>
+          <include name="verifySearchByLocationSection"/>
+          <include name="verifyRefineByEducationPopUp"/>
+          <include name="verifyRefineByIndustryPopUp"/>
+          <include name="verifyRefineResultsSection"/>
+          <include name="verifySearchResultsPage"/>
+          <include name="popUpClose"/>
+          <include name="verifySearchResultsSection"/>
+          <include name="verifyRefineByIndustryType"/>
+          <include name="verifySearchByLocationField"/>
+        </methods>
+      </class>
+    </classes>
+  </test>
+</suite>
